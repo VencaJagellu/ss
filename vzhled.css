@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Základní styly pro tělo dokumentu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #04151f;
+    color: #EFD6AC;
+    line-height: 1.6;
+}
+
+/* Styly pro záhlaví */
+header {
+    background-color: #183a37;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #EFD6AC;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #EFD6AC;
+    background-color:#183a37;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.8s ease;
+}
+
+nav a:hover {
+    color: #c0ac8a;
+    background-color:#04151f
+}
+
+/* Styly pro hlavní obsah */
+main {
+    padding: 20px;
+}
+
+/* Styly pro zápatí */
+footer {
+    background-color: #183a37;
+    color: #EFD6AC;
+    text-align: center;
+    padding: 10px 0;
+}
