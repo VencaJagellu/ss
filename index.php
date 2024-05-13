@@ -27,6 +27,12 @@ Dobromilovci s.r.o.
     </header>
 
     <main>
+    <h1>Vítejte</h1>
+    <h2>Náplň naší firmy</h2>
+    <p>     Naším cílem je dle objednávky lokalizovat, vyfotit a odlovit člověka, na něhož si zákazník objednal odchyt. Každým rokem rozšiřujeme naše portfólio a snažíme se zákazníkům vždy přijít vstříc. </p>
+    <h2>Volnočasové aktivity</h2>
+    <h3>Letní Tábor</h3>
+    <p>Každé léto naše firma Dobromilovci organizuje letní tábory pro děti, kde si mohou vyzkoušet naši těžkou práci. Součástí programu je mnoho her. (Např. fotografování jehovů)</p>   
 
     </main>
 </body>
