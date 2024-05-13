@@ -21,8 +21,29 @@
 </header>
 <main>
     <h1>Kontakty</h1>
-    <p>Ředitel</p>
-    <p></p>
+    <h2>Ředitel</h2>
+    <h3>David Veselý</h3>
+    <img src="./vsl.jpg" alt="David Veselý" width="100" height="100">
+    <ul>
+        <li>email: vesely@dobromilec.cz</li>
+        <li>tel.: +420 387 705 199</li>
+    </ul>
+
+    <h2>Ředitel Výzkumu</h2>
+    <h3>Antonín Šimůnek</h3>
+    <img src="./smn.jpg" alt="Antonín Šimánek" width="100" height="100">
+    <ul>
+        <li>email: simunek@dobromilec.cz</li>
+        <li>tel.: +420 284 016 111</li>
+    </ul>
+
+    <h2>Lovec</h2>
+    <h3>Petr Janoušek</h3>
+    <img src="./pj.jpg" alt="Petr Janoušek" width="100" height="100">
+    <ul>
+        <li>email: janousek@dobromilec.cz</li>
+        <li>tel.: +420 577 303 302</li>
+    </ul>
 </main>
 
 
