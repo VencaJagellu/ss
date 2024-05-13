@@ -1,92 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="vzhled.css">
+</head>
+<body>
+<header>
+        <h1>Dobromilovci</h1>
 
-/* Základní styly pro tělo dokumentu */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #04151f;
-    color: #EFD6AC;
-    line-height: 1.6;
-    text-align:center;
-}
+        <nav>
+            <a href="index.php">Domů</a>
+            <a href="form.php">Produkty a služby</a>
+            <a href="onas.php">O nás</a>
+            <a href="kontakty.php">Kontakty</a>
+        </nav>
 
-/* Styly pro záhlaví */
-header {
-    background-color: #183a37;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2em;
-    color: #EFD6AC;
-    margin-bottom: 10px;
-}
-
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    color: #EFD6AC;
-    background-color:#183a37;
-    text-decoration: none;
-    margin-right: 20px;
-    transition: 0.8s ease;
-}
-
-nav a:hover {
-    color: #c0ac8a;
-    background-color:#04151f
-}
-
-/* Styly pro hlavní obsah */
-main {
-    padding: 20px;
-}
-
-/* Styly pro zápatí */
-footer {
-    background-color: #183a37;
-    color: #EFD6AC;
-    text-align: center;
-    padding: 10px 0;
-}
-span {cursor:pointer; }
-		.number{
-			margin:100px;
-		}
-		.minus, .plus{
-			width:20px;
-			height:20px;
-			background:#f2f2f2;
-			border-radius:4px;
-			padding:8px 5px 8px 5px;
-			border:1px solid #ddd;
-      display: inline-block;
-      vertical-align: middle;
-      text-align: center;
-		}
-		input{
-			height:34px;
-      width: 130px;
-      text-align: center;
-      font-size: 26px;
-			border:1px solid #ddd;
-			border-radius:4px;
-      display: inline-block;
-      vertical-align: middle;
-        }
-        #submit{
-            height:34px;
-      width: 300px;
-      text-align: center;
-      font-size: 26px;
-			border:1px solid #ddd;
-			border-radius:4px;
-      display: inline-block;
-      vertical-align: middle;
-        }
+    </header>
+<fieldset>
+    <legend><h1>Objednejte si jednu z našich služeb!</h1></legend>
+  <label for="skull">Odchyt Skulletů: </label><input type="number" step="0" max="75650" value="0" name="skull" id="skull" class="sluzby">
+  <br>
+  <br>
+  <label for="mull">Odchyt Mulletů: </label><input type="number" step="0" max="15000" value="0" name="mull" id="mull" class="sluzby">
+    <br>
+    <br>
+    <label for="kom">Odchyt Komunistů: </label><input type="number" step="0" max="68" value="0" name="kom" id="kom" class="sluzby">
+    <br>
+    <br>
+    <label for="furr">Odchyt Furrýků: </label><input type="number" step="0" max="69" value="0" name="furr" id="furr" class="sluzby">
+    <br>
+    <br>
+    <label for="jeh">Odchyt Jehovistů: </label><input type="number" step="0" max="420" value="0" name="jeh" id="jeh" class="sluzby">
+    <br>
+    <br>
+    <label for="kres">Odchyt Křesťanů: </label><input type="number" step="0" max="19116" value="0" name="kres" id="kres" class="sluzby">
+    <br>
+    <br>
+    <label for="ehm">Odchyt lidí z teplejších krajin: </label><input type="number" step="0" max="418369" value="0" name="ehm" id="ehm" class="sluzby">
+    <br>
+    <br>
+    <label for="slech">Odchyt šlechty: </label><input type="number" step="0" max="195" value="0" name="slech" id="slech" class="sluzby">
+    <br>
+    <br>
+    <label for="delnik">Odchyt levných dělníků z východu: </label><input type="number" step="0" max="369330" value="0" name="delnik" id="delnik" class="sluzby">
+    <br>
+    <br>
+    <label for="mnam">Odchyt kebabových lidí: </label><input type="number" step="0" max="2000" value="0" name="mnam" id="mnam" class="sluzby">
+    <br>
+    <br>
+    <input type="submit" value="Dokonči objednávku" id="submit">
+    <br>
+    <br>
+</fieldset>
+<br>
+<footer>
+Copyright &copy; 2024 Dobromilovci a.s. All Rights reserved
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
