@@ -6,6 +6,7 @@
     <meta name="author" content="Antonín Šimánek, Petr Janoušek, David Veselý">
     <meta name="keywords" content="kontakty, email, odlov">
     <title>Hlavní stránka</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="vzhled.css">
 </head>
 <!-- BARVY https://coolors.co/04151f-183a37-efd6ac-c44900-432534
